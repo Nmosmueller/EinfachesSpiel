@@ -38,15 +38,10 @@ public class GewinnModel {
         }else {
             this.gesamtPunkte = this.gesamtPunkte - 10;
         }
-        if(hatGewonnen()== true){
-            System.out.println("Gewonnen");
-        }
-        if(hatVerloren()== true){
-            System.out.println("Verloren");
-        }
     }
     public boolean hatGewonnen(){
         if(this.gesamtPunkte >= 100) {
+            System.out.println("gewonnen");
             return true;
         }else{
             return false;
@@ -54,6 +49,7 @@ public class GewinnModel {
     }
     public boolean hatVerloren(){
         if(this.gesamtPunkte <= 0) {
+            System.out.println("Verloren");
             return true;
         }else {
             return false;
