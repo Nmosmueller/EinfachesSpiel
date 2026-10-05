@@ -15,7 +15,7 @@ public class SpielView extends JFrame {
     public SpielView() {
         model = new GewinnModel(0);
 
-        setTitle("Zahlen-Gewinnspiel (v1.0)");
+        setTitle("Zahlen-Gewinnspiel (v2.0)");
         setSize(450, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
