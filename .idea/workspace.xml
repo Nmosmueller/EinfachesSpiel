@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="überarbeitet">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="Erste SpielView kreiert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpielView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpielView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +59,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "view",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/nickl/Downloads/3ahit/Softwareentwicklung/3ahit/src/Main.java",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "reference.idesettings.quicklists",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -128,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789550767915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Erste SpielView kreiert">
+      <option name="closed" value="true" />
+      <created>1791183509888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1791183509888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +159,7 @@
     <MESSAGE value="getter- Methoden, Konstruktor" />
     <MESSAGE value="restliche methoden" />
     <MESSAGE value="überarbeitet" />
-    <option name="LAST_COMMIT_MESSAGE" value="überarbeitet" />
+    <MESSAGE value="Erste SpielView kreiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erste SpielView kreiert" />
   </component>
 </project>
