@@ -35,7 +35,6 @@ public class SpielView extends JFrame {
         topPanel.add(lblRundenErgebnis);
         topPanel.add(lblGesamtPunkte);
 
-
         JPanel centerPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         centerPanel.add(new JLabel("Deine Zahl:", SwingConstants.CENTER));
         centerPanel.add(new JLabel("Computer:", SwingConstants.CENTER));
@@ -50,13 +49,11 @@ public class SpielView extends JFrame {
         centerPanel.add(txtSpielerZahl);
         centerPanel.add(txtComputerZahl);
 
-
         btnNochEinmal = new JButton("Noch einmal!");
 
         add(topPanel, BorderLayout.NORTH);
         add(centerPanel, BorderLayout.CENTER);
         add(btnNochEinmal, BorderLayout.SOUTH);
-
 
         txtSpielerZahl.addActionListener(new ActionListener() {
             @Override
@@ -64,7 +61,6 @@ public class SpielView extends JFrame {
                 spieleRunde();
             }
         });
-
 
         btnNochEinmal.addActionListener(new ActionListener() {
             @Override
@@ -86,20 +82,26 @@ public class SpielView extends JFrame {
 
             if (eingabe == model.getComputerZahl()) {
                 lblRundenErgebnis.setText("+20");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else if (eingabe - 1 == model.getComputerZahl() || eingabe + 1 == model.getComputerZahl()) {
                 lblRundenErgebnis.setText("+5");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else {
                 lblRundenErgebnis.setText("-10");
+                lblRundenErgebnis.setBackground(Color.RED);
             }
 
             if (model.hatGewonnen()) {
                 lblRundenErgebnis.setText("Gewonnen!");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else if (model.hatVerloren()) {
                 lblRundenErgebnis.setText("Verloren!");
+                lblRundenErgebnis.setBackground(Color.RED);
             }
 
         } catch (NumberFormatException ex) {
             lblRundenErgebnis.setText("Bitte nur Zahlen!");
+            lblRundenErgebnis.setBackground(Color.WHITE);
         }
     }
 
@@ -107,5 +109,6 @@ public class SpielView extends JFrame {
         txtSpielerZahl.setText("");
         txtComputerZahl.setText("");
         lblRundenErgebnis.setText("Tippe eine Zahl von 1 bis 9");
+        lblRundenErgebnis.setBackground(Color.WHITE);
     }
 }
