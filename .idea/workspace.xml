@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="Alle panels erstellt">
+    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="Logik und einrückungen gemacht">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SpielView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpielView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,12 +145,30 @@
       <option name="project" value="LOCAL" />
       <updated>1791184491556</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Logik und einrückungen gemacht">
+      <option name="closed" value="true" />
+      <created>1791185865056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1791185865056</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="3696c9a7-b942-4615-8575-3b433ad4746a" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="3696c9a7-b942-4615-8575-3b433ad4746a">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -169,6 +186,7 @@
     <MESSAGE value="überarbeitet" />
     <MESSAGE value="Erste SpielView kreiert" />
     <MESSAGE value="Alle panels erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alle panels erstellt" />
+    <MESSAGE value="Logik und einrückungen gemacht" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logik und einrückungen gemacht" />
   </component>
 </project>
