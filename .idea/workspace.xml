@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="Erste SpielView kreiert">
+    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="Alle panels erstellt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SpielView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpielView.java" afterDir="false" />
     </list>
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791183509888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alle panels erstellt">
+      <option name="closed" value="true" />
+      <created>1791184491556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1791184491556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +168,7 @@
     <MESSAGE value="restliche methoden" />
     <MESSAGE value="überarbeitet" />
     <MESSAGE value="Erste SpielView kreiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Erste SpielView kreiert" />
+    <MESSAGE value="Alle panels erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alle panels erstellt" />
   </component>
 </project>
