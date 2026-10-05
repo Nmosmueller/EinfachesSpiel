@@ -15,6 +15,7 @@ public class SpielView extends JFrame {
     public SpielView() {
         model = new GewinnModel(0);
 
+        setTitle("Zahlen-Gewinnspiel (v2.0)");
         setTitle("Zahlen-Gewinnspiel (v1.1)");
         setSize(450, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,7 +37,6 @@ public class SpielView extends JFrame {
         topPanel.add(lblRundenErgebnis);
         topPanel.add(lblGesamtPunkte);
 
-
         JPanel centerPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         centerPanel.add(new JLabel("Deine Zahl:", SwingConstants.CENTER));
         centerPanel.add(new JLabel("Computer:", SwingConstants.CENTER));
@@ -51,14 +51,12 @@ public class SpielView extends JFrame {
         centerPanel.add(txtSpielerZahl);
         centerPanel.add(txtComputerZahl);
 
-
         btnNochEinmal = new JButton("Noch einmal!");
         btnNochEinmal.setEnabled(false);
 
         add(topPanel, BorderLayout.NORTH);
         add(centerPanel, BorderLayout.CENTER);
         add(btnNochEinmal, BorderLayout.SOUTH);
-
 
         txtSpielerZahl.addActionListener(new ActionListener() {
             @Override
@@ -87,16 +85,21 @@ public class SpielView extends JFrame {
 
             if (eingabe == model.getComputerZahl()) {
                 lblRundenErgebnis.setText("+20");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else if (eingabe - 1 == model.getComputerZahl() || eingabe + 1 == model.getComputerZahl()) {
                 lblRundenErgebnis.setText("+5");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else {
                 lblRundenErgebnis.setText("-10");
+                lblRundenErgebnis.setBackground(Color.RED);
             }
 
             if (model.hatGewonnen()) {
                 lblRundenErgebnis.setText("Gewonnen!");
+                lblRundenErgebnis.setBackground(Color.GREEN);
             } else if (model.hatVerloren()) {
                 lblRundenErgebnis.setText("Verloren!");
+                lblRundenErgebnis.setBackground(Color.RED);
             }
 
 
@@ -105,6 +108,7 @@ public class SpielView extends JFrame {
 
         } catch (NumberFormatException ex) {
             lblRundenErgebnis.setText("Bitte nur Zahlen!");
+            lblRundenErgebnis.setBackground(Color.WHITE);
         }
     }
 
@@ -116,5 +120,6 @@ public class SpielView extends JFrame {
 
         txtSpielerZahl.setEnabled(true);
         btnNochEinmal.setEnabled(false);
+        lblRundenErgebnis.setBackground(Color.WHITE);
     }
 }
