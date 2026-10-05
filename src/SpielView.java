@@ -16,11 +16,9 @@ public class SpielView extends JFrame {
         model = new GewinnModel(0);
 
         setTitle("Zahlen-Gewinnspiel (v2.0)");
-        setTitle("Zahlen-Gewinnspiel (v1.1)");
         setSize(450, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
-
 
         JPanel topPanel = new JPanel(new GridLayout(2, 2, 5, 5));
         topPanel.add(new JLabel("Rundenergebnis:", SwingConstants.CENTER));
@@ -102,7 +100,6 @@ public class SpielView extends JFrame {
                 lblRundenErgebnis.setBackground(Color.RED);
             }
 
-
             txtSpielerZahl.setEnabled(false);
             btnNochEinmal.setEnabled(true);
 
@@ -116,7 +113,6 @@ public class SpielView extends JFrame {
         txtSpielerZahl.setText("");
         txtComputerZahl.setText("");
         lblRundenErgebnis.setText("Tippe eine Zahl von 1 bis 9");
-
 
         txtSpielerZahl.setEnabled(true);
         btnNochEinmal.setEnabled(false);

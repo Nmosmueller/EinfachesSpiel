@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="version-2.0 farben gemacht" />
+    <list default="true" id="36980b70-f21a-4f2c-b819-9590696a3282" name="Changes" comment="version-2.0 farben gemacht">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3ahit/GewinnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3ahit/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GewinnModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GewinnModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +61,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;version-2.0&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/nickl/Downloads/3ahit/Softwareentwicklung/3ahit/src/Main.java&quot;,
